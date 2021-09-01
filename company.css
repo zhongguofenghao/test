@@ -1,0 +1,51 @@
+html,body{
+    /*background:#e7d20e;*/
+    padding: 0;
+}
+.header{
+    width: 100%;
+    /*background: red;*/
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 37px;
+    padding: 20px 0;
+    background: rgb(252, 252, 252);
+    clear: both;
+}
+.nav li{
+    float: left;
+    list-style-type: none;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+    font-size: 20px;
+    padding: 0 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width: 84px;
+    height: 37px;
+    margin-right: 200px;
+    float: left;
+    background: url("img/logo.png");
+}
+.nav{
+    float:left;
+    margin:0;
+    padding: 0;
+}
+.search{
+    float: left;
+    width:30px;
+    height: 30px;
+    margin-top: 4px;
+}
+.search i{
+    background: url("img/icon-search.png");
+    width:22px;
+    height: 22px;
+    display: block;
+}
